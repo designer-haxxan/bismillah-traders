@@ -23,7 +23,7 @@
 
         /* Navbar Styles */
         .navbar {
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            background: linear-gradient(135deg, #0891b2 0%, #0e7490 50%, #155e75 100%);
             padding: 1rem 0;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
@@ -33,6 +33,19 @@
             font-weight: 700;
             color: #fff !important;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-brand img {
+            height: 50px;
+            margin-right: 15px;
+            filter: brightness(0) invert(1);
+            transition: all 0.3s ease;
+        }
+
+        .navbar-brand:hover img {
+            transform: scale(1.1) rotate(5deg);
         }
 
         .navbar-nav .nav-link {
@@ -49,7 +62,7 @@
 
         /* Hero Section */
         .hero-section {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #0891b2 0%, #0e7490 50%, #155e75 100%);
             padding: 120px 0 80px;
             color: white;
             position: relative;
@@ -295,7 +308,7 @@
             right: -100px;
             width: 500px;
             height: 500px;
-            background: radial-gradient(circle, rgba(102, 126, 234, 0.1) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(8, 145, 178, 0.1) 0%, transparent 70%);
             border-radius: 50%;
             animation: float 6s ease-in-out infinite;
         }
@@ -307,7 +320,7 @@
             left: -100px;
             width: 400px;
             height: 400px;
-            background: radial-gradient(circle, rgba(118, 75, 162, 0.1) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(21, 94, 117, 0.1) 0%, transparent 70%);
             border-radius: 50%;
             animation: float 8s ease-in-out infinite;
             animation-delay: 1s;
@@ -322,7 +335,7 @@
             font-size: 2.5rem;
             font-weight: 700;
             margin-bottom: 20px;
-            color: #2a5298;
+            color: #0e7490;
             position: relative;
             display: inline-block;
         }
@@ -334,7 +347,7 @@
             left: 0;
             width: 60px;
             height: 4px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #0891b2 0%, #155e75 100%);
             border-radius: 2px;
         }
 
@@ -363,7 +376,7 @@
             left: -50%;
             width: 200%;
             height: 200%;
-            background: linear-gradient(45deg, transparent, rgba(102, 126, 234, 0.1), transparent);
+            background: linear-gradient(45deg, transparent, rgba(8, 145, 178, 0.1), transparent);
             transform: rotate(45deg);
             transition: all 0.6s ease;
         }
@@ -380,7 +393,7 @@
         .service-icon {
             width: 70px;
             height: 70px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #0891b2 0%, #155e75 100%);
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -394,7 +407,7 @@
 
         .service-card:hover .service-icon {
             transform: rotateY(360deg) scale(1.1);
-            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.5);
+            box-shadow: 0 10px 25px rgba(8, 145, 178, 0.5);
         }
 
         .service-icon::after {
@@ -403,7 +416,7 @@
             width: 100%;
             height: 100%;
             border-radius: 50%;
-            border: 2px solid #667eea;
+            border: 2px solid #0891b2;
             animation: pulse-ring 2s infinite;
         }
 
@@ -422,7 +435,7 @@
             font-size: 1.4rem;
             font-weight: 600;
             margin-bottom: 15px;
-            color: #2a5298;
+            color: #0e7490;
         }
 
         /* Departments Section */
@@ -432,13 +445,13 @@
         }
 
         .department-item {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #0891b2 0%, #155e75 100%);
             color: white;
             padding: 25px;
             border-radius: 10px;
             margin-bottom: 20px;
             transition: all 0.4s ease;
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+            box-shadow: 0 5px 15px rgba(8, 145, 178, 0.3);
             position: relative;
             overflow: hidden;
         }
@@ -460,7 +473,7 @@
 
         .department-item:hover {
             transform: scale(1.05) rotate(2deg);
-            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5);
+            box-shadow: 0 8px 25px rgba(8, 145, 178, 0.5);
         }
 
         .department-item i {
@@ -483,7 +496,7 @@
         /* Global Reach Section */
         .global-reach-section {
             padding: 80px 0;
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            background: linear-gradient(135deg, #0891b2 0%, #0e7490 50%, #155e75 100%);
             color: white;
         }
 
@@ -537,7 +550,7 @@
         .contact-icon {
             width: 50px;
             height: 50px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #0891b2 0%, #155e75 100%);
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -549,7 +562,7 @@
 
         /* Footer */
         .footer {
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            background: linear-gradient(135deg, #0891b2 0%, #0e7490 50%, #155e75 100%);
             color: white;
             padding: 30px 0;
             text-align: center;
@@ -700,7 +713,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#home">
-                <i class="fas fa-globe-americas me-2"></i>Bismillah Traders
+                <img src="bismillah-traders-logo.png" alt="Bismillah Traders Logo">
+                Bismillah Traders
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -794,13 +808,13 @@
             </div>
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 fade-in about-card">
-                    <h3 class="mb-4" style="color: #2a5298;"><i class="fas fa-building me-2"></i>Multi-Service International Company</h3>
+                    <h3 class="mb-4" style="color: #0e7490;"><i class="fas fa-building me-2"></i>Multi-Service International Company</h3>
                     <p class="lead">Bismillah Traders is a comprehensive international trading and logistics company providing end-to-end business solutions across global markets.</p>
                     <p>We specialize in trading consumer goods, household products, food items, industrial materials, and general merchandise while offering complete transport, logistics, and business support services.</p>
                     <p>Our dedicated transport division in the United States manages load booking, driver coordination, route planning, and compliance support for fleet owners and transport companies.</p>
                 </div>
                 <div class="col-lg-6 mb-4 fade-in">
-                    <div class="p-4 glow-effect" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; color: white;">
+                    <div class="p-4 glow-effect" style="background: linear-gradient(135deg, #0891b2 0%, #155e75 100%); border-radius: 15px; color: white;">
                         <h4 class="mb-3"><i class="fas fa-bullseye me-2 floating"></i>Our Mission</h4>
                         <p>To provide comprehensive, data-driven, and strategically designed solutions that support wholesalers, distributors, retailers, and international clients across diverse industries.</p>
                         <hr style="border-color: rgba(255,255,255,0.3);">
@@ -1001,7 +1015,7 @@
                             </div>
                             <div>
                                 <h5 class="mb-1">Phone Number</h5>
-                                <p class="mb-0"><a href="tel:03374656607" style="color: #2a5298; text-decoration: none;">0337-4656607</a></p>
+                                <p class="mb-0"><a href="tel:+923374656607" style="color: #0e7490; text-decoration: none;">+92 337-4656607</a></p>
                             </div>
                         </div>
                         <div class="contact-item">
@@ -1014,7 +1028,7 @@
                             </div>
                         </div>
                         <div class="text-center mt-4">
-                            <a href="tel:03374656607" class="btn btn-custom btn-lg">
+                            <a href="tel:+923374656607" class="btn btn-custom btn-lg">
                                 <i class="fas fa-phone me-2"></i>Call Now
                             </a>
                         </div>
@@ -1033,7 +1047,7 @@
                     <p class="mb-3">Your Trusted Partner in Global Trading & Logistics</p>
                     <p>&copy; 2025 Bismillah Traders. All Rights Reserved.</p>
                     <p class="mt-3">
-                        <i class="fas fa-phone me-2"></i>0337-4656607 | 
+                        <i class="fas fa-phone me-2"></i>+92 337-4656607 | 
                         <i class="fas fa-envelope ms-3 me-2"></i>Contact us for comprehensive business solutions
                     </p>
                 </div>
@@ -1066,10 +1080,10 @@
         window.addEventListener('scroll', function() {
             const navbar = document.querySelector('.navbar');
             if (window.scrollY > 50) {
-                navbar.style.background = 'linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)';
+                navbar.style.background = 'linear-gradient(135deg, #0891b2 0%, #0e7490 50%, #155e75 100%)';
                 navbar.style.boxShadow = '0 2px 20px rgba(0,0,0,0.2)';
             } else {
-                navbar.style.background = 'linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)';
+                navbar.style.background = 'linear-gradient(135deg, #0891b2 0%, #0e7490 50%, #155e75 100%)';
                 navbar.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
             }
         });
